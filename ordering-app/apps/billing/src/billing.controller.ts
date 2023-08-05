@@ -13,6 +13,7 @@ export class BillingController {
   @Get()
   getHello(): string {
     return this.billingService.getHello();
+    //pour
   }
 
   @EventPattern('order_created')
