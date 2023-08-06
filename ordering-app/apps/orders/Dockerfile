@@ -1,4 +1,6 @@
 FROM node:alpine As development
+RUN apk upgrade
+RUN apk add git
 
 WORKDIR /usr/src/app
 
